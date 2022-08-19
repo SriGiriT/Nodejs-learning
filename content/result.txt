@@ -1,4 +1,3 @@
 Here is the result of the two files: 
 this is first file  
 this is second file
-This was appended txt using append flag
