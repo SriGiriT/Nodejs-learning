@@ -1,0 +1,23 @@
+{
+  "name": "Nodejs-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-intro.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SriGiriT/Nodejs-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SriGiriT/Nodejs-learning/issues"
+  },
+  "homepage": "https://github.com/SriGiriT/Nodejs-learning#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
