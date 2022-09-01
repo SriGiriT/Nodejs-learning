@@ -1,3 +1,4 @@
-Here is the result of the two files: 
-this is first file  
+Here is the result 
+this is first file 
+and the second
 this is second file
