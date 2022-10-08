@@ -42,23 +42,10 @@ app.get('/api/product/:ProductId/reviews/:ReviewId', (req, res)=>{
 })
 
 // query
-app.get('/api/product/v1/query', (req, res)=>{
+app.get('/api/product/query', (req, res)=>{
   const {search, limit} = req.query
   console.log({search, limit})
-  let sortedProduct = [...products]
-  if(search){
-    sortedProduct = sortedProduct.filter((product)=> product.name.startsWith(search)
-    )
-  } 
-  if(limit){
-    sortedProduct = sortedProduct.slice(0, limit)
-  }
-  if(sortedProduct.length<1){
-    return res.status(200).json({"status":200, "data":[]})
-  }
-  // res.status(200).send("working")  
-  res.json(sortedProduct)
-
+  res.status(200).send("working")  
 })
 
 app.listen(5000, ()=>{
